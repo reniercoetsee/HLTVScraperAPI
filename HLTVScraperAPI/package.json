@@ -1,0 +1,9 @@
+{
+  "name": "hltvscraper-api",
+  "version": "0.0.0",
+  "description": "HLTVScraperAPI",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  }
+}
