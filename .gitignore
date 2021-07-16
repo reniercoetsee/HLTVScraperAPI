@@ -5,3 +5,4 @@
 /node_modules
 /.vs/HLTVScraperAPI/v16
 /package-lock.json
+*.html
