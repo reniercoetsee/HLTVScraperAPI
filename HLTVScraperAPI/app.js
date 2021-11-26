@@ -29,7 +29,7 @@ async function getMatches() {
 async function cacheMatch(matchUrl) {
     const url = baseUrl + matchUrl;
     await rp(url).then(function (html) {
-        const fileName = './' + (matchUrl.substring(1) + '.html').replace(/\//g, '-');
+        const fileName = './matches/' + (matchUrl.substring(1) + '.html').replace(/\//g, '-');
         console.log(fileName);
         fs.writeFile(fileName, html, function(err) {
             if(err) {
